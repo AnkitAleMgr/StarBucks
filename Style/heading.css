@@ -1,0 +1,83 @@
+header{
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial;
+    padding: 24px 40px;
+    /* -webkit-box-shadow: 0px 0px 19px 0px rgba(255,234,0,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,234,0,1);
+    box-shadow: 0px 0px 19px 0px rgba(255,234,0,1); */
+    border-bottom: 1px solid rgb(193, 192, 192);
+}
+
+img{
+    width: 48px;
+}
+
+#main_header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#header_logo_section p{
+    padding-left: 23px;
+}
+
+#header_logo_section{
+    font-size: 14px;
+    font-weight: 1000;
+    letter-spacing: 1.8px;
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+
+
+#header_signin_section{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+#header_signin_section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_header_location_section{
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#main_header_location_section i{
+    font-size: 20px;
+}
+
+#main_header_signin_section{
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+#joinNow{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+
+}
+
+#main_header_signin_section p{
+    border: 1px solid #333;
+    padding: 5px 18px;
+    border-radius: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/* body attributes */
